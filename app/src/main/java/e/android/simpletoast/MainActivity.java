@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -19,6 +20,7 @@ import android.widget.ToggleButton;
  * i have put a comment on each part as its added on.
  */
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,5 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
     }
+
 }
